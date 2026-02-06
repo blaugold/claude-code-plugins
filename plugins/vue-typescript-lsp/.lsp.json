@@ -1,0 +1,26 @@
+{
+  "vue-typescript": {
+    "command": "npx",
+    "args": ["--yes", "typescript-language-server", "--stdio"],
+    "extensionToLanguage": {
+      ".vue": "vue",
+      ".ts": "typescript",
+      ".tsx": "typescriptreact",
+      ".mts": "typescript",
+      ".cts": "typescript",
+      ".js": "javascript",
+      ".jsx": "javascriptreact",
+      ".mjs": "javascript",
+      ".cjs": "javascript"
+    },
+    "initializationOptions": {
+      "plugins": [
+        {
+          "name": "@vue/typescript-plugin",
+          "location": "@vue/typescript-plugin",
+          "languages": ["vue"]
+        }
+      ]
+    }
+  }
+}

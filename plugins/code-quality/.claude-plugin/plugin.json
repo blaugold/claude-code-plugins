@@ -1,0 +1,8 @@
+{
+  "name": "code-quality",
+  "version": "1.0.0",
+  "description": "Automated code quality hooks: auto-fixes (ESLint/Prettier) after edits and quality gates before stopping",
+  "author": {
+    "name": "Gabriel Terwesten"
+  }
+}

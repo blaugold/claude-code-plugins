@@ -1,0 +1,23 @@
+{
+  "name": "local-plugins",
+  "owner": {
+    "name": "Gabriel Terwesten"
+  },
+  "plugins": [
+    {
+      "name": "code-quality",
+      "source": "./plugins/code-quality",
+      "description": "Automated code quality hooks: auto-fixes (ESLint/Prettier) after edits and quality gates before stopping"
+    },
+    {
+      "name": "dart-lsp",
+      "source": "./plugins/dart-lsp",
+      "description": "LSP server integration for Dart files using the Dart Analysis Server"
+    },
+    {
+      "name": "vue-typescript-lsp",
+      "source": "./plugins/vue-typescript-lsp",
+      "description": "TypeScript Language Server with Vue support. Handles .vue, .ts, .tsx, .js, .jsx files. Use instead of a separate TypeScript LSP for Vue projects."
+    }
+  ]
+}

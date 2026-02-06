@@ -1,0 +1,8 @@
+{
+  "name": "dart-lsp",
+  "version": "1.0.0",
+  "description": "LSP server integration for Dart files using the Dart Analysis Server",
+  "author": {
+    "name": "Gabriel Terwesten"
+  }
+}
